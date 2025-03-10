@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0b0b;
+    color: rgba(247, 247, 247, 0.925)
+}
+
+#A{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    justify-content: space-between 
+    ;
+}
+#A img{
+    padding-right: 30px;
+    margin-top: -10px;
+}
+.text{
+    text-align: left;
+}
+
+
+
+.header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-height: 45px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav{
+    margin-right: -1100px;
+    
+}
+#nav a:hover{
+    border-bottom:3px solid white ;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+.thank-you{
+    display: flex;
+    
+}
+#t1{
+    margin-left: 100px;
+}
+#t1 p{
+    font-size: 80px;
+    font-weight: 200;
+}
+#t1 pre{
+    font-size: 20px;
+}
+.thank-you p {
+    font-size: 24px;
+}
+
+.thank-you img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    margin-top: -25px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.stat {
+    margin: 20px;
+    padding: 20px;
+    background-color:#0c0b0b;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.donate-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+    
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: -500px;
+    border-color: solid  white;
+}
+
+.donate-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+#para{
+    font-size: 60px;
+    text-align: left;
+}
+#para1{
+    text-align: left;
+}
